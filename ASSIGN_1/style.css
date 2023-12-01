@@ -1,0 +1,57 @@
+body{
+    border-style: solid;
+}
+
+.full{
+   display:flex;
+  border: 10px;
+  border-color: black;
+  justify-content: space-between;
+ 
+}
+
+
+.Resume{
+   text-align: center;
+   
+}
+
+.photo{
+    border-style:solid;
+   height: 100px;
+   width: 100px;
+   margin-right: 10px;
+   margin-top: 20px;
+   text-align: center;
+   
+}
+
+.index{
+   margin-left: 30px;
+   margin-top: -4px;
+}
+.education{
+   border: 1px;
+    border-radius: 1px;
+    border-color: black;
+    height: 100px;
+    width: 96%;
+    border-collapse: collapse;
+    margin-left: 15px;
+}
+
+.project{
+   margin-left: 60px ;
+}
+
+.futter{
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.date{
+   margin-top: 100px;
+   margin-bottom: 100px;
+
+}
