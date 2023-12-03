@@ -1,0 +1,28 @@
+.number{
+    font-size: large;
+    margin-left:40% ;
+    height: 100px;
+    width: 400px;
+
+    
+
+}
+
+.button{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 750px;
+    
+}
+
+.Subtract{
+    margin-left: 20px;
+}
+
+.Multiply{
+    margin-left: 20px;
+}
+
+.Divide{
+    margin-left: 20px;
+}
