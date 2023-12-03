@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div style="padding: 30px;"><center><h1> <u>Registration Form</u></h1>
+    </center></div>
+    <div style="display: flex; margin-left: 400px;">
+        <div class="form">
+            
+            
+                <video
+                  src="https://youtu.be/02q9aAVv1NI?si=2XeHyPRfaFnkxAYs";
+                  style="height: 300px"
+                  controls poster="img.png"
+                ></video>
+        </div>
+        <div style="margin-left: 100px;">
+           <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" id="Name" required></td>
+            </tr>
+            <tr>
+                <td>Birthdate</td>
+                <td><input type="date" id="bdate"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" id="email" required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" id="password" required></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <select name="country" id="country">
+                        <option value="">Select Country</option>
+                        <option value="india" selected>India</option>
+                       
+                    </select>
+            
+                    <select name="state" id="state">
+                        <option value="">Select State</option>
+                        <option value="ap">Andhra Pradesh</option>
+                        <option value="ka">Karnataka</option>
+                        <option value="mh">Maharashtra</option>
+                       
+                    </select>
+            
+                    <select name="city" id="city">
+                        <option value="">Select City</option>
+                        <option value="hyd">Hyderabad</option>
+                        <option value="blr">Bengaluru</option>
+                        <option value="mum">Mumbai</option>
+                       
+                    </select>
+                </td>
+            </tr>
+             <tr>
+                <td>Gender</td>
+                <td><input type="radio" id="gender">Male
+                    <input type="radio" id="gender">Female
+                </td>
+             </tr>
+
+             <tr>
+                <td>UploadPhoto</td>
+                <td><input type="file"></td>
+             </tr>
+             <tr>
+                <td>select cource</td>
+                <td><select name="cource" id="cource">
+                    <option value="Delhi">DAC</option>
+                    <option value="Delhi">DMC</option>
+                    <option value="Delhi">DTIIS</option>
+                    <option value="Delhi">DBDA</option>
+                </select></td>
+             </tr>
+           </table> 
+           <div style="margin-left: 20px; padding-top: 15px;">
+            <input type="button"  value="Register">
+            <input type="button"  value="clear" style="margin-left: 100px; " onclick="Clear()">
+           </div>
+        </div>
+    </div>
+   <script>
+        function Clear()
+        {
+            var refToName=document.getElementById("Name");
+            var refToEmail=document.getElementById("email");
+            var refTopassword=document.getElementById("password");
+           
+            refToName.value="";
+            refToEmail.value="";
+            refTopassword.value="";
+            
+        }
+   </script>
+</body>
+</html>
